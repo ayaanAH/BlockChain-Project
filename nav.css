@@ -1,0 +1,34 @@
+.topnav
+{
+  overflow: hidden;
+  background-image: linear-gradient(to right bottom, #00294e, #002047, #001a45, #001443, #000d40, #07023d);
+  width: 100%;
+  position: absolute;
+}
+.navi a
+{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navi a:hover
+{
+  background-image: linear-gradient(to right bottom, #067580, #006679, #005771, #004866, #003a5a, #003154);
+  color: white;
+  border-top: 0px;
+  border-left: 0.5;
+  border-right: 0.5;
+  border-bottom: 2px;
+  border-radius: 3px;
+  opacity: 0.9;
+}
+.navi a:active
+{
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 3px;
+  opacity: 0.9;
+}
